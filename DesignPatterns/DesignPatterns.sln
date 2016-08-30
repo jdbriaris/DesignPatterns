@@ -5,6 +5,7 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{40CFB0BB-58EC-454E-8D4B-C26E5EA2CDF3}"
 	ProjectSection(SolutionItems) = preProject
+		abstract-factory.md = abstract-factory.md
 		oop-principles.md = oop-principles.md
 	EndProjectSection
 EndProject
