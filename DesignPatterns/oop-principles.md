@@ -33,3 +33,9 @@ Below is some important principles to keep in mind when developing object-orient
 Enforce this by:
 - Ensuring the contructor is defined with required parameters that contain all information the class needs to be valid
 - Implementing guard clauses in the constructor that will throw if insufficient information is provided
+
+## Postel's Law
+
+> Be consevative in what you do, be liberal in what you accept from others.
+
+The original context for Postel's law was the interaction of devices over networks ([link](https://tools.ietf.org/html/rfc761)). It has direct application during the construction and consumption of software services, i.e., *as designers of client software we should try our best to allow the service being consumed to change without requiring us to change.*
